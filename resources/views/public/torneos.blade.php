@@ -152,9 +152,6 @@
                 @foreach ($torneos as $torneo)
                     <div class="col-md-3 mb-4">
                         <div class="card h-100">
-                            @if ($torneo['logo'])
-                        
-                            @else
                                 <div class="card-img-top d-flex align-items-center justify-content-center p-3 bg-light mx-auto" style="height: 75px; width: 75px;">
                                     <span class="text-muted">N/A</span>
                                 </div>
