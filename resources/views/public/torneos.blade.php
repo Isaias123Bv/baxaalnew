@@ -149,6 +149,13 @@
     <div class="bg-white shadow-lg rounded-lg p-4">
         @if ($torneos)
             <div class="row">
+                                         @if ($torneo['logo'])
+                                        <img src="{{ Storage::url($torneo['logo']) }}" alt="{{ $torneo['nombre'] }}" class="h-12 w-12 object-contain rounded-full border border-gray-300">
+                            @else
+                                <div class="card-img-top d-flex align-items-center justify-content-center p-3 bg-light mx-auto" style="height: 75px; width: 75px;">
+                                    <span class="text-muted">N/A</span>
+                                </div>
+                            @endif
                 @foreach ($torneos as $torneo)
                     <div class="col-md-3 mb-4">
                         <div class="card h-100">
