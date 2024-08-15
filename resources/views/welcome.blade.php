@@ -399,7 +399,7 @@ section {
                         <div class="team-header"f>
                             <div>
                                 <img src="img/equipo1.png" alt="Equipo 1" class="logo-equipo">
-                                <p class="team-names">Equipo 1</p>
+                                <p class="team-names">America</p>
                             </div>
                             <div>
                                 <span class="score">3</span>
@@ -410,7 +410,7 @@ section {
                             </div>
                             <div>
                                 <img src="img/equipo2.png" alt="Equipo 2" class="logo-equipo">
-                                <p class="team-names">Equipo 2</p>
+                                <p class="team-names">Cruz Azul</p>
                             </div>
                         </div>
                         <p class="match-details text-center">Detalles del Partido</p>
@@ -421,7 +421,7 @@ section {
                         <div class="team-header">
                             <div>
                                 <img src="img/equipo3.png" alt="Equipo 3" class="logo-equipo">
-                                <p class="team-names">Equipo 3</p>
+                                <p class="team-names">Atlas F.C</p>
                             </div>
                             <div>
                                 <span class="score">1</span>
@@ -432,7 +432,7 @@ section {
                             </div>
                             <div>
                                 <img src="img/equipo4.png" alt="Equipo 4" class="logo-equipo">
-                                <p class="team-names">Equipo 4</p>
+                                <p class="team-names">Atletico de San Luis</p>
                             </div>
                         </div>
                         <p class="match-details text-center">Detalles del Partido</p>
