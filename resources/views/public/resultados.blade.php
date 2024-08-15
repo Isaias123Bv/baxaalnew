@@ -281,8 +281,6 @@
             teams: 'Marruecos vs Argentina',
             date: '26/3/19',
             result: '0 - 1',
-            team1_logo: 'morocco.png',
-            team2_logo: 'argentina.png',
             stats: {
                 'Remates': [10, 13],
                 'Remates al arco': [2, 2],
@@ -300,8 +298,6 @@
             teams: 'Brasil vs Francia',
             date: '29/6/19',
             result: '2 - 2',
-            team1_logo: 'brazil.png',
-            team2_logo: 'france.png',
             stats: {
                 'Remates': [15, 11],
                 'Remates al arco': [5, 6],
@@ -319,8 +315,6 @@
             teams: 'España vs Italia',
             date: '15/7/19',
             result: '1 - 3',
-            team1_logo: 'spain.png',
-            team2_logo: 'italy.png',
             stats: {
                 'Remates': [12, 14],
                 'Remates al arco': [3, 5],
@@ -338,8 +332,6 @@
             teams: 'Alemania vs Portugal',
             date: '20/7/19',
             result: '4 - 0',
-            team1_logo: 'germany.png',
-            team2_logo: 'portugal.png',
             stats: {
                 'Remates': [20, 8],
                 'Remates al arco': [10, 2],
@@ -357,8 +349,6 @@
             teams: 'Inglaterra vs Suecia',
             date: '22/7/19',
             result: '2 - 1',
-            team1_logo: 'england.png',
-            team2_logo: 'sweden.png',
             stats: {
                 'Remates': [18, 10],
                 'Remates al arco': [7, 3],
@@ -376,8 +366,6 @@
             teams: 'Bélgica vs Dinamarca',
             date: '30/7/19',
             result: '3 - 0',
-            team1_logo: 'belgium.png',
-            team2_logo: 'denmark.png',
             stats: {
                 'Remates': [22, 5],
                 'Remates al arco': [10, 2],
@@ -395,8 +383,6 @@
             teams: 'Argentina vs Brasil',
             date: '1/8/19',
             result: '1 - 2',
-            team1_logo: 'argentina.png',
-            team2_logo: 'brazil.png',
             stats: {
                 'Remates': [14, 16],
                 'Remates al arco': [4, 5],
@@ -414,8 +400,6 @@
             teams: 'Francia vs Italia',
             date: '10/8/19',
             result: '2 - 0',
-            team1_logo: 'france.png',
-            team2_logo: 'italy.png',
             stats: {
                 'Remates': [15, 7],
                 'Remates al arco': [5, 1],
@@ -433,8 +417,6 @@
             teams: 'España vs Alemania',
             date: '15/8/19',
             result: '3 - 3',
-            team1_logo: 'spain.png',
-            team2_logo: 'germany.png',
             stats: {
                 'Remates': [18, 15],
                 'Remates al arco': [6, 6],
@@ -452,8 +434,6 @@
             teams: 'Portugal vs Inglaterra',
             date: '20/8/19',
             result: '1 - 1',
-            team1_logo: 'portugal.png',
-            team2_logo: 'england.png',
             stats: {
                 'Remates': [12, 10],
                 'Remates al arco': [4, 4],
@@ -480,9 +460,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">${match.teams}</h5>
                     <div class="d-flex justify-content-center align-items-center mb-3">
-                        <img src="${match.team1_logo}" alt="Logo ${match.teams.split(' vs ')[0]}" class="w-25 mr-2">
                         <span class="text-muted mx-2">vs</span>
-                        <img src="${match.team2_logo}" alt="Logo ${match.teams.split(' vs ')[1]}" class="w-25 ml-2">
                     </div>
                     <button class="btn btn-link p-0" onclick="openModal(${index})">Ver detalles</button>
                     <p class="text-muted mb-1">Fecha: ${match.date}</p>
@@ -506,8 +484,6 @@
                     </div>
                     <div class="modal-body">
                         <div class="d-flex justify-content-center align-items-center mb-4">
-                            <img src="${match.team1_logo}" alt="Logo ${match.teams.split(' vs ')[0]}" class="w-25 mr-4">
-                            <img src="${match.team2_logo}" alt="Logo ${match.teams.split(' vs ')[1]}" class="w-25 ml-4">
                         </div>
                         <table class="table table-striped stat-table">
                             <thead>
